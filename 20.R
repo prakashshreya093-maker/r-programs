@@ -1,0 +1,6 @@
+data <- data.frame( Numbers = c(1,2,2,3,4,4,5,5,6) )
+print("Original Data:") 
+print(data) 
+unique_values <- unique(data$Numbers) 
+print("Unique Values:") 
+print(unique_values)
