@@ -1,0 +1,5 @@
+v<-c(5,10,15,20)
+sum(v)
+min(v)
+max(v)
+mean(v)
