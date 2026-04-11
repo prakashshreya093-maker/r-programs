@@ -1,0 +1,5 @@
+df1 <- data.frame( ID =c(1,2,3,4), Age = c(21,22,23,24) ) 
+df2 <- data.frame( ID =c(1,2,3,4), City = c("Delhi","Mumbai","Chennai","Kolkata") ) 
+merged_df <- merge(df1, df2, by="ID")
+print("Merged Data Frame:") 
+print(merged_df)
