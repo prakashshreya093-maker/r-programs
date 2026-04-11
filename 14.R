@@ -1,0 +1,20 @@
+nums <- 1:20 
+print(nums)
+class_students <- c("Aman","Riya","Rohan","Priya","Isha", "Karan","Neha","Arjun","Simran","Rahul") 
+print(class_students)
+age <- c(8,9,8,9,8,9,8,9,8,9)
+print(age)
+flowers <- matrix(c("Rose","Lily","Lotus","Tulip", "Sunflower","Jasmine","Daisy","Marigold"),
+nrow = 4, ncol = 2) 
+print(flowers)
+family <- array(c("Father","Mother","Brother","Sister","Grandfather", "Grandmother","Uncle","Aunt","Cousin","Nephew", "Niece","Child","Relative1","Relative2","Relative3", "Relative4","Relative5","Relative6","Relative7","Relative8", "Relative9","Relative10","Relative11","Relative12"),
+dim = c(4,3,2))
+print(family)
+emp_name <- c("Rohan","Priya","Aman","Neha","Karan","Simran","Arjun")
+ID <- c(101,102,103,104,105,106,107) 
+salary <- c(25000,30000,28000,27000,35000,32000,29000) 
+age <- c(25,26,24,27,30,28,26)
+qualification <- c("BCA","MBA","BTech","BSc","MCA","BBA","MTech")
+employee_data <- data.frame(emp_name, ID, salary, age, qualification)
+print(employee_data)
+print(employee_data$qualification)
