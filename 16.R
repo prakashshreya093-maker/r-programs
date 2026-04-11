@@ -1,0 +1,13 @@
+id<-c(1,2,3,,4,5)
+name<-c("A","B","C","D","E")
+salary<-c(20000,25000,30000,28000,27000)
+age<-c(25,26,27,28,29)
+df<-data.frame(id,name,salary,age)
+df[,c("name","salary")]
+df[1:2,]
+df[c(3,5),c("name,"age")]
+df$dept<-c("HR","IT","Sales","HR","IT")
+df
+df2<-data.frame(id=c(6,7,8),name=c("F","G","H"),salary=c(26000,24000,23000),age=(30,31,32),dept=c("Sales","HR","IT"))
+df<-rbind(df,df2)
+df
