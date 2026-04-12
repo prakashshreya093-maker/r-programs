@@ -1,0 +1,8 @@
+m <- matrix(c(5,8,2,7,9,1,6,4,3), nrow=3)
+print(m)
+max_pos <- which(m == max(m), arr.ind=TRUE)
+print("Position of Maximum Value:")
+print(max_pos)
+min_pos <- which(m == min(m), arr.ind=TRUE)
+print("Position of Minimum Value:")
+print(min_pos)
